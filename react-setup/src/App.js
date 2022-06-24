@@ -1,6 +1,6 @@
-import React from 'react';
-import './App.css';
-import { FilteringTable } from './compenents/FilteringTable';
+import React from 'react'
+import './App.css'
+import { FilteringTable } from './components/FilteringTable'
 
 function App() {
   return (

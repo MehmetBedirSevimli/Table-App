@@ -3,19 +3,19 @@ import { ColumnFilter } from "./ColumnFilter";
 export const COLUMNS = [
     {
         Header: 'Name',
-        accessor:'name'
+        accessor:'name',
     },
     {
         Header: 'Capital',
         accessor: 'capital',
-        Filter: ColumnFilter
+        Filter: ColumnFilter,
     },
     {
         Header: 'Region',
-        accessor: 'region'
+        accessor: 'region',
     },
     {
         Header: 'Flag',
-        accessor: 'flag'
+        accessor: 'flag',
     }
 ]
