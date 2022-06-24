@@ -39,7 +39,7 @@ const tableInstance = useTable({
                 headerGroup.headers.map((column) => (
                     <th scope="col" {...column.getHeaderProps()}>{column.render('Header')}
                     <div>
-                        {column.canFilter ? column.render('Filter')} : null} <div/>
+                        {column.canFilter ? column.render('Filter') : null} <div/>
                     </div>
                     </th>
                 ))
