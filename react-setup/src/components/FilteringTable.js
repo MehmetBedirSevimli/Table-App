@@ -43,10 +43,18 @@ export const FilteringTable = () => {
     const { globalFilter } = state
 
     return (
+        <div class="container p-3 mb-2 bg-light text-dark">
+            
         <>
+        <div class="row">
+        <div class="col-sm">
         <GlobalFilter filter={globalFilter} 
         setFilter={setGlobalFilter} />
+        </div>
+        </div>
         
+        <div class="row">
+        <div class="col-sm">
         <table class="table table-dark" {...getTableProps()}>
             <thead>
             {headerGroups.map((headerGroup) => (
@@ -84,7 +92,10 @@ export const FilteringTable = () => {
    
             </tbody>
         </table>
+        </div>
+        </div>
         </>
+        </div>
     )
 
 }
